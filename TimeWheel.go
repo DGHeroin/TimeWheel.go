@@ -6,7 +6,7 @@ import (
 )
 
 type (
-    TimeJob  func(interface{}, interface{})
+    TimeJob  func(key interface{}, value interface{})
     TimeTask struct {
         delay    time.Duration
         circle   int
